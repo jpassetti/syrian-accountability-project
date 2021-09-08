@@ -1,0 +1,20 @@
+.nav {
+	//background-color: limegreen;
+	margin-top: 2rem;
+}
+.navLink {
+	//background-color: pink;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: block;
+	text-decoration: none;
+	&:hover, &:focus {
+		color: #888;
+	}
+}
+.navLinkActive {
+	color: red;
+}

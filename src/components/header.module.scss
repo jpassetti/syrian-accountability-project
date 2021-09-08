@@ -1,0 +1,11 @@
+.header {
+	padding: 2rem;
+	&.sticky {
+		position: sticky;
+	}
+}
+.logo {
+	width: 10rem;
+	height: auto;
+}
+

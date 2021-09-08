@@ -1,0 +1,30 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.paragraph {
+	font-size: $baseTextSize;
+	line-height: 1.5;
+	color: black;
+	margin-bottom: 1rem;
+	max-width: 100%;
+	@include breakpoint(sm) {
+		max-width: 48em;
+	}
+	&.intro {
+		font-size: $baseTextSize * 1.4;
+		font-family: "Merriweather";
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		@include breakpoint(sm) {
+			max-width: 32em;
+		}
+		&:after {
+			content:'';
+			display: block;
+			width: 5rem;
+			height: .25rem;
+			background-color: red;
+			margin-top: 2rem;
+		}
+	}
+}

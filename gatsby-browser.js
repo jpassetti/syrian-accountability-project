@@ -1,0 +1,5 @@
+import "./src/styles/utilities.scss"
+import "@fontsource/open-sans/400.css"
+import "@fontsource/open-sans/700.css"
+import "@fontsource/merriweather/400.css"
+import "@fontsource/merriweather/700.css"
