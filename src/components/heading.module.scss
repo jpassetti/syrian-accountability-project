@@ -20,7 +20,7 @@
 	&.h5 {
 		font-size: $text-5;
 		text-transform: uppercase;
-		color: red;
+		color: $color__red;
 		a {
 			text-decoration: none;
 			color: red;
@@ -35,7 +35,7 @@
 	&.category {
 		text-transform: uppercase;
 		font-weight: 700;
-		color: red;
+		color: $color__red;
 		
 	}
 
