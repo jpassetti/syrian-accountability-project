@@ -25,8 +25,6 @@ const Contact = () => {
 					</Row>
 				</Col>
 			</Row>
-			<Paragraph>Twitter: <a href="https://twitter.com/sap_sucol" target="_blank">@sap_sucol</a></Paragraph>
-			<Paragraph>Instagram: <a href="https://instagram.com/SAP_syracuselaw" target="_blank">@SAP_syracuselaw</a></Paragraph>
 		</Layout>
 	)
 }
