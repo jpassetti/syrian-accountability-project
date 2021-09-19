@@ -16,7 +16,7 @@ Special Projects Lead: Tina Al-khersan (alkherti@umich.edu)
 */
 const people = [
 	{
-		name: "David Crane",
+		name: "David M. Crane",
 		job: "Retired Professor",
 		organization: "College of Law",
 		role: "Faculty Lead",
@@ -71,7 +71,7 @@ const Stack = () => {
 						<Category label={person.role} />
 						<Heading rank="3">{person.name}</Heading>
 						<Paragraph><a href={`mailto:${person.email}`}>{person.email}</a></Paragraph>
-						<Paragraph>{person.organization}</Paragraph>
+						{/*<Paragraph>{person.organization}</Paragraph>*/}
 					</Col>
 				</Row>
 			</Col>

@@ -12,7 +12,7 @@ import Paragraph from '../components/paragraph'
 const Reports = () => {
 	return (
 		<Layout>
-			<Heading rank="1">Reports</Heading>
+			<Heading rank="1">Publications</Heading>
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Row>
 				<Col sm="6">

@@ -1,7 +1,9 @@
-import React from 'react';
-import classNames from 'classnames/bind';
-import { Link } from "gatsby";
-import Nav from './nav';
+import React from 'react'
+import classNames from 'classnames/bind'
+import { Link } from "gatsby"
+import Nav from './nav'
+import Icon from './icon'
+import Divider from './divider'
 
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -27,6 +29,13 @@ const Header = ({position}) => {
 				/>
 			</Link>
 			<Nav />
+			<Divider />
+			<a href="https://twitter.com/sap_sucol" target="_blank" rel="noreferrer">
+				<Icon.Twitter />
+			</a>
+			<a href="https://instagram.com/SAP_syracuselaw" target="_blank" rel="noreferrer">
+				<Icon.Instagram />
+			</a>
 		</header>
 	)
 }

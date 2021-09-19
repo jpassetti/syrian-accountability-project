@@ -14,6 +14,7 @@ const Team = () => {
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Row>
 				<Col sm="9">
+					{/* 
 					<Row justifyContentSpaceBetween alignItemsCenter tableHeader>
 						<Col sm="6">
 							<Heading rank="3">2021</Heading>
@@ -22,6 +23,7 @@ const Team = () => {
 							<SelectList />
 						</Col>
 					</Row>
+					*/}
 					
 					<Stack />
 				</Col>
