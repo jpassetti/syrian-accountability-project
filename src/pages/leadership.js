@@ -10,7 +10,7 @@ import Stack from '../components/stack';
 const Team = () => {
 	return (
 		<Layout>
-			<Heading rank="1">Team</Heading>
+			<Heading rank="1">2021-22 Leadership</Heading>
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Row>
 				<Col sm="9">

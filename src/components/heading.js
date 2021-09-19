@@ -8,14 +8,16 @@ const Heading = ({
 	rank = 2,
 	children,
 	type = 'headline',
-	mt
+	mt,
+	className
 }) => {
 	const Tag = rank > 6 ? 'h6' : `h${rank}`;
 
 	let headingClasses = cx({
 		heading: true,
 		[`${Tag}`]: rank,
-		[`mt-4`]: mt === "4"
+		[`${className}`]: className,
+		[`mt-4`]: mt === "4",
 	});
 
 

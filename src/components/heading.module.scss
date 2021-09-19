@@ -32,5 +32,11 @@
 	&.h6 {
 		font-size: $text-6;
 	}
+	&.category {
+		text-transform: uppercase;
+		font-weight: 700;
+		color: red;
+		
+	}
 
 }

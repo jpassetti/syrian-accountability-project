@@ -1,10 +1,12 @@
 // Typography
 $baseTextSize: 1.1rem;
-$textSizeIncrement: 1.2;
+$textSizeIncrement: 1.4;
 
-$text-6 : $baseTextSize;
-$text-5 : $text-6 * $textSizeIncrement;
-$text-4 : $text-5 * $textSizeIncrement;
+$text-4 : $baseTextSize;
+$text-5 : $baseTextSize * 0.95;
+$text-6 : $text-5 * 0.95;
+
+
 $text-3 : $text-4 * $textSizeIncrement;
 $text-2 : $text-3 * $textSizeIncrement;
 $text-1 : $text-2 * $textSizeIncrement;

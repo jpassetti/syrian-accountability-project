@@ -13,12 +13,12 @@ const navLinks = [
 		path: "/about"
 	},
 	{
-		title: "Reports",
-		path: "/reports"
+		title: "Publications",
+		path: "/publications"
 	},
 	{
-		title: "Team",
-		path: "/team"
+		title: "Leadership",
+		path: "/leadership"
 	},
 	{
 		title: "Contact",

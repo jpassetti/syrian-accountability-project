@@ -5,37 +5,59 @@ import Row from './row'
 import Col from './col';
 import Heading from './heading';
 import Paragraph from './paragraph';
-
+import Category from './category';
+/*
+Faculty Lead: Professor David Crane
+Executive Director: Christopher Martz (cgmartz@syr.edu)
+Deputy Director: Kanalya Arivalagan (karivala@syr.edu)
+Investigations Lead: Rebecca Buchanan (rmbuchan@syr.edu)
+Intelligence Lead: Matthew McCartin (mmccarti@syr.edu)
+Special Projects Lead: Tina Al-khersan (alkherti@umich.edu)
+*/
 const people = [
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		name: "David Crane",
+		job: "Retired Professor",
+		organization: "College of Law",
+		role: "Faculty Lead",
+		email: null
 	},
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		name: "Christopher Martz",
+		//job: "Job title",
+		organization: "College of Law",
+		role: "Executive Director",
+		email: "cgmartz@syr.edu"
 	},
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		name: "Kanalya Arivalagan",
+		//job: "Job title",
+		organization: "College of Law",
+		role: "Deputy Director",
+		email: "karivala@syr.edu"
 	},
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		name: "Rebecca Buchanan",
+		//job: "Job title",
+		organization: "College of Law",
+		role: "Investigations Lead",
+		email: "rmbuchan@syr.edu"
 	},
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		//Intelligence Lead: Matthew McCartin (mmccarti@syr.edu)
+		name: "Matthew McCartin",
+		//job: "Job title",
+		organization: "College of Law",
+		role: "Intelligence Lead",
+		email: "mmccarti@syr.edu"
 	},
 	{
-		name: "John Smith",
-		job: "Job title",
-		organization: "Organization name"
+		//Special Projects Lead: Tina Al-khersan (alkherti@umich.edu)
+		name: "Tina Al-khersan",
+		//job: "Job title",
+		organization: "College of Law",
+		role: "Special Projects Lead",
+		email: "alkherti@umich.edu"
 	},
 ];
 
@@ -45,16 +67,10 @@ const Stack = () => {
 		{people.map((person, index) => {
 			return <Col key={index} sm="6">
 				<Row>
-					<Col xs="3" sm="3">
-						<StaticImage
-							src="../images/sample-profile-image.jpg"
-							alt={person.name}
-							className="rounded"
-						/>
-					</Col>
-					<Col xs="9" sm="9">
+					<Col xs="12" sm="12">
+						<Category label={person.role} />
 						<Heading rank="3">{person.name}</Heading>
-						<Heading rank="4">{person.job}</Heading>
+						<Paragraph><a href={`mailto:${person.email}`}>{person.email}</a></Paragraph>
 						<Paragraph>{person.organization}</Paragraph>
 					</Col>
 				</Row>

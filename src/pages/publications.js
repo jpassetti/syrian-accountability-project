@@ -30,7 +30,7 @@ const Reports = () => {
 								fileName="an-endless-tragedy.pdf"
 								/>
 								<Button.pageLink level="secondary" 
-								path="/reports/an-endless-tragedy" />
+									path="/publications/an-endless-tragedy" />
 							</ButtonGroup>
 						</Card.content>
 					</Card>
@@ -50,7 +50,7 @@ const Reports = () => {
 									fileName="report-on-the-yazidi-genocide.pdf"
 								/>
 								<Button.pageLink level="secondary"
-									path="/reports/an-endless-tragedy" />
+									path="/publications/an-endless-tragedy" />
 							</ButtonGroup>
 						</Card.content>
 					</Card>
@@ -70,7 +70,7 @@ const Reports = () => {
 									fileName="Idlib-left-breathless.pdf"
 								/>
 								<Button.pageLink level="secondary"
-									path="/reports/an-endless-tragedy" />
+									path="/publications/an-endless-tragedy" />
 							</ButtonGroup>
 						</Card.content>
 					</Card>
@@ -110,7 +110,7 @@ const Reports = () => {
 									fileName="looking-through-the-window-darkly.pdf"
 								/>
 								<Button.pageLink level="secondary"
-									path="/reports/an-endless-tragedy" />
+									path="/publications/an-endless-tragedy" />
 							</ButtonGroup>
 						</Card.content>
 					</Card>
